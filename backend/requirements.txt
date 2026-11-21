@@ -1,0 +1,13 @@
+# AIGC 动漫番剧制作工作台 —— 后端依赖（全部为纯 Python / 可离线运行）
+fastapi==0.118.3
+uvicorn[standard]==0.37.0
+sqlalchemy==2.0.43
+pydantic==2.14.2
+pydantic-settings==2.11.0
+python-multipart==0.0.20
+pillow==13.0.0
+PyJWT==2.10.1
+
+# 测试与本地验收
+pytest==8.4.2
+httpx==0.28.1

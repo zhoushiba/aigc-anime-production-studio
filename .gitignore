@@ -1,0 +1,49 @@
+# ---- 依赖与构建产物 ----
+node_modules/
+dist/
+dist-ssr/
+build/
+target/
+*.local
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+coverage/
+.coverage
+coverage.xml
+
+# ---- 运行数据与素材 ----
+data/
+storage/
+backend/data/*.db
+backend/data/*.db-wal
+backend/data/*.db-shm
+backend/storage/assets/
+backend/storage/thumbs/
+backend/storage/exports/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# ---- 本地配置 ----
+.env
+.env.local
+.env.*.local
+backend/.env
+
+# ---- 编辑器 / 系统 ----
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
